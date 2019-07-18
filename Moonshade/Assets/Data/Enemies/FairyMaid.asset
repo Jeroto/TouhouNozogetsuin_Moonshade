@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7bb7521be791845b8fba5d543d3598, type: 3}
+  m_Name: FairyMaid
+  m_EditorClassIdentifier: 
+  charName: Fairy Maid
+  charExp: 1200
+  charLevel: 20
+  currentHP: 12000
+  maxHP: 12000
+  currentMP: 200
+  maxMP: 200
+  attack: 50
+  subAttack: 40
+  defense: 20
+  mentalDef: 30
+  turnSpeed: 10
+  statusEffects: []
+  weaknessesAndResistances: []
+  damageTypeUnlocks: []
+  skills: []
+  animations: {fileID: 22100000, guid: 5f8fae7f9c9e2d4478f094ab2ba4e6ec, type: 2}
+  hoverAnim: 1
+  hoverDist: 4
+  hoverTime: 60
+  portrait: {fileID: 0}
+  shmupSpawn: {fileID: 4810325074730258326, guid: fc2f557e1f54eaf42b71a4545bb362a8,
+    type: 3}

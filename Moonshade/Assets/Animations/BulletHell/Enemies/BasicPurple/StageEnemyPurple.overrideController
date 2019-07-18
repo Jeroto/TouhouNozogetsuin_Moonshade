@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: StageEnemyPurple
+  m_Controller: {fileID: 9100000, guid: 7d583896d081a9e4ba167223f8575a03, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ddfff7e0307febb4b9b072890c400055, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 15bc798a92500764b9091c30d78dd563, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d4aa756dc8620cd4d89cb60cb7f7c861, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f8ac60da47699a241a9371d3e162e4b4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 34d0337044c6a3643baeeadc24a4f6f9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 59ebf4de6acadf4419bc1d97e71da7c5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d988e1d5587d77a49955ed6afc878202, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ca951a9e02330a249829ebe02e4c9dec, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bd36f607081973841815878acbc56e35, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3b6c5833339515e49a76be3c5cf81c73, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8e8dfb3416e4d93488632b3de0e61119, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 646f6378ee85f96488a616acb058e612, type: 2}

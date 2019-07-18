@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f7f700c5eeb2944a1371da56dcf79a, type: 3}
+  m_Name: MarisaKirisame
+  m_EditorClassIdentifier: 
+  charName: Marisa Kirisame
+  charExp: 0
+  charLevel: 1
+  currentHP: 7
+  maxHP: 7
+  currentMP: 14
+  maxMP: 14
+  attack: 2
+  subAttack: 3
+  defense: 2
+  mentalDef: 7
+  turnSpeed: 15
+  statusEffects: []
+  weaknessesAndResistances:
+  - damageType: 1
+    damageMultiplier: 0.75
+  - damageType: 3
+    damageMultiplier: 0.75
+  - damageType: 2
+    damageMultiplier: 1.5
+  - damageType: 23
+    damageMultiplier: 1.5
+  damageTypeUnlocks:
+  - damageType: 1
+    levelToUnlock: 0
+  - damageType: 3
+    levelToUnlock: 0
+  - damageType: 16
+    levelToUnlock: 5
+  - damageType: 13
+    levelToUnlock: 10
+  - damageType: 12
+    levelToUnlock: 30
+  - damageType: 24
+    levelToUnlock: 90
+  - damageType: 17
+    levelToUnlock: 140
+  - damageType: 7
+    levelToUnlock: 200
+  skills:
+  - skill: {fileID: 11400000, guid: 161b92bc10d4813468e6f2b4c612ef27, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: 7a948120f76cd9641b7d3b02a3548222, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: efc34078d90e92a4caffa5ebb81a2856, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: 3af6349e2e86c43409396a1fe693d079, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: 3592f31f2289ce743b809a0b47005ba7, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: 0b9d3821834e5e643ad65a777168b6b7, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: 9601fc549a1b6db46a514d6e6089b00b, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: d96ea6023961c764ea33ef683335327a, type: 2}
+    levelToUnlock: 0
+  animations: {fileID: 22100000, guid: d2e883c692ceda243b90cb1d8878cc3d, type: 2}
+  hoverAnim: 0
+  hoverDist: 0
+  hoverTime: 0
+  portrait: {fileID: 21300000, guid: 8b0fcfde779239843a1241419bb7ef50, type: 3}
+  charType: 1
+  charSubtype: 0
+  movementSpeed: 50
+  focusSpeed: 35
+  shmupData: {fileID: 11400000, guid: 0dfadebcb1441754c82e145a165fd922, type: 2}
+  defaultShot: {fileID: 11400000, guid: cf4a144df6c07cf44ab093efe309fdb1, type: 2}

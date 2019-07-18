@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1883454555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1883454556}
+  - component: {fileID: 1883454557}
+  m_Layer: 0
+  m_Name: BGM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1883454556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883454555}
+  m_LocalRotation: {x: -0.258819, y: -0, z: -0, w: 0.9659259}
+  m_LocalPosition: {x: 0, y: -94.9, z: -122.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7993284127317316003}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1883454557
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883454555}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: eedc3ded9c90a1b45b1bc6944dc4df59, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &7993284127317316000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7993284127317316003}
+  - component: {fileID: 7993284127317316005}
+  - component: {fileID: 7993284127317316002}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7993284127317316003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7993284127317316000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1883454556}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7993284127317316005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7993284127317316000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a4cef88d2607a1479e57f55f5440702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeScale: 1
+  bgmSource: {fileID: 0}
+  loading: 0
+  pause: 0
+  lockInputs: 0
+  previousSceneNum: 0
+  overworldPos: {x: 0, y: 0}
+  playerTrans: {fileID: 0}
+  playerParty:
+  - charName: 
+    charExp: 0
+    charLevel: 0
+    currentHP: 0
+    maxHP: 0
+    currentMP: 0
+    maxMP: 0
+    attack: 0
+    subAttack: 0
+    defense: 0
+    mentalDef: 0
+    turnSpeed: 0
+    statusEffects: []
+    weaknessesAndResistances: []
+    animations: {fileID: 0}
+    hoverAnim: 0
+    hoverDist: 0
+    hoverTime: 0
+    damageTypeUnlocks: []
+    skills: []
+    portrait: {fileID: 0}
+    charType: 0
+    charSubtype: 0
+    movementSpeed: 0
+    focusSpeed: 0
+    possibleCharacterIndex: 0
+    shmupData: {fileID: 0}
+  - charName: 
+    charExp: 0
+    charLevel: 0
+    currentHP: 0
+    maxHP: 0
+    currentMP: 0
+    maxMP: 0
+    attack: 0
+    subAttack: 0
+    defense: 0
+    mentalDef: 0
+    turnSpeed: 0
+    statusEffects: []
+    weaknessesAndResistances: []
+    animations: {fileID: 0}
+    hoverAnim: 0
+    hoverDist: 0
+    hoverTime: 0
+    damageTypeUnlocks: []
+    skills: []
+    portrait: {fileID: 0}
+    charType: 0
+    charSubtype: 0
+    movementSpeed: 0
+    focusSpeed: 0
+    possibleCharacterIndex: 0
+    shmupData: {fileID: 0}
+  - charName: 
+    charExp: 0
+    charLevel: 0
+    currentHP: 0
+    maxHP: 0
+    currentMP: 0
+    maxMP: 0
+    attack: 0
+    subAttack: 0
+    defense: 0
+    mentalDef: 0
+    turnSpeed: 0
+    statusEffects: []
+    weaknessesAndResistances: []
+    animations: {fileID: 0}
+    hoverAnim: 0
+    hoverDist: 0
+    hoverTime: 0
+    damageTypeUnlocks: []
+    skills: []
+    portrait: {fileID: 0}
+    charType: 0
+    charSubtype: 0
+    movementSpeed: 0
+    focusSpeed: 0
+    possibleCharacterIndex: 0
+    shmupData: {fileID: 0}
+  - charName: 
+    charExp: 0
+    charLevel: 0
+    currentHP: 0
+    maxHP: 0
+    currentMP: 0
+    maxMP: 0
+    attack: 0
+    subAttack: 0
+    defense: 0
+    mentalDef: 0
+    turnSpeed: 0
+    statusEffects: []
+    weaknessesAndResistances: []
+    animations: {fileID: 0}
+    hoverAnim: 0
+    hoverDist: 0
+    hoverTime: 0
+    damageTypeUnlocks: []
+    skills: []
+    portrait: {fileID: 0}
+    charType: 0
+    charSubtype: 0
+    movementSpeed: 0
+    focusSpeed: 0
+    possibleCharacterIndex: 0
+    shmupData: {fileID: 0}
+  enemyPartySpawns: 00000000010000000200000000000000
+  possiblePartyMemberExp: 
+  possiblePartyMembers:
+  - {fileID: 11400000, guid: a2d415282b341c14f80f12732471d7fc, type: 2}
+  - {fileID: 11400000, guid: 05536eb0f32ae434cb82de3293cc86c2, type: 2}
+--- !u!114 &7993284127317316002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7993284127317316000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7996b913334bd4a43815f06c403c1420, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  directionUpInput: up
+  directionDownInput: down
+  directionLeftInput: left
+  directionRightInput: right
+  shootInput: z
+  bombInput: x
+  focusInput: left shift
+  pause: escape
+  directionUpAxis: Axis 2-
+  directionDownAxis: Axis 2+
+  directionLeftAxis: Axis 1-
+  directionRightAxis: Axis 1+
+  shootAxis: joystick 1 button 0
+  bombAxis: joystick 1 button 1
+  focusAxis: Axis 10+
+  pauseAxis: joystick 1 button 7
+  upIsAxis: 0
+  downIsAxis: 0
+  leftIsAxis: 0
+  rightIsAxis: 0
+  shootIsAxis: 0
+  bombIsAxis: 0
+  focusIsAxis: 0
+  pauseIsAxis: 0
+  directionalInput: {x: 0, y: 0}
+  directionDown: {x: 0, y: 0}
+  directionUp: {x: 0, y: 0}
+  focusPressed: 0
+  focusDown: 0
+  focusUp: 0
+  shootPressed: 0
+  shootDown: 0
+  shootUp: 0
+  bombPressed: 0
+  bombDown: 0
+  bombUp: 0
+  pausePressed: 0
+  pauseDown: 0
+  pauseUp: 0
+  previousDirectionalInput: {x: 0, y: 0}
+  joystickPresent: 0
+  prevJoystickPresent: 0

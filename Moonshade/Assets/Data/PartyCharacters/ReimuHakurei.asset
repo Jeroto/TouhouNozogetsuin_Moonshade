@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f7f700c5eeb2944a1371da56dcf79a, type: 3}
+  m_Name: ReimuHakurei
+  m_EditorClassIdentifier: 
+  charName: Reimu Hakurei
+  charExp: 0
+  charLevel: 1
+  currentHP: 10
+  maxHP: 10
+  currentMP: 10
+  maxMP: 10
+  attack: 1
+  subAttack: 1
+  defense: 5
+  mentalDef: 5
+  turnSpeed: 7
+  statusEffects: []
+  weaknessesAndResistances:
+  - damageType: 0
+    damageMultiplier: 0.75
+  - damageType: 5
+    damageMultiplier: 0.75
+  - damageType: 4
+    damageMultiplier: 1.5
+  - damageType: 20
+    damageMultiplier: 1.5
+  damageTypeUnlocks:
+  - damageType: 0
+    levelToUnlock: 0
+  - damageType: 5
+    levelToUnlock: 0
+  - damageType: 6
+    levelToUnlock: 10
+  - damageType: 10
+    levelToUnlock: 20
+  - damageType: 13
+    levelToUnlock: 50
+  - damageType: 11
+    levelToUnlock: 120
+  - damageType: 4
+    levelToUnlock: 160
+  - damageType: 14
+    levelToUnlock: 200
+  skills:
+  - skill: {fileID: 11400000, guid: 118613bdf040ec64085f5ec8f90890f3, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: 93436ed22bef42f4a96e4574d359d5aa, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: d31f09d3ba3475640910a2a892be97ce, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: ac8abcac58b89ba4d8fcec8d45cae42d, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: 59f79b0295a8faf4fb3436dcf8a1e9dc, type: 2}
+    levelToUnlock: 0
+  - skill: {fileID: 11400000, guid: 0474459558eeb4347bd4afcdaa2aa098, type: 2}
+    levelToUnlock: 0
+  animations: {fileID: 22100000, guid: 8b9e123852811a346ba5d59aa6b383f8, type: 2}
+  hoverAnim: 0
+  hoverDist: 0
+  hoverTime: 0
+  portrait: {fileID: 21300000, guid: 529e4f55a01ccd34b9661668dfc3aef3, type: 3}
+  charType: 0
+  charSubtype: 4
+  movementSpeed: 30
+  focusSpeed: 10
+  shmupData: {fileID: 11400000, guid: 0dd571fdabe9b8e49adf8e46b3416143, type: 2}
+  defaultShot: {fileID: 11400000, guid: 0a3a3ec79f5629245ad4ca07b504614b, type: 2}

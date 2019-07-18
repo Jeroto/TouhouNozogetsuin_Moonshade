@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf43fd2e2aac8b469784dacaeec880d, type: 3}
+  m_Name: TestShotType
+  m_EditorClassIdentifier: 
+  mainShootSound: {fileID: 0}
+  subShootSound: {fileID: 0}
+  bursts: 11
+  mainShots:
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 4861f32eac97810438e9481b0fc0bf19, type: 3}
+    - {fileID: 3692356356745162565, guid: 4861f32eac97810438e9481b0fc0bf19, type: 3}
+    angles:
+    - 0
+    - 0
+    positionOffsets:
+    - {x: -10, y: 0}
+    - {x: 10, y: 0}
+    fireWait: 9
+  subShots:
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 20
+    - -20
+    positionOffsets:
+    - {x: -20, y: 0}
+    - {x: 20, y: 0}
+    fireWait: 4
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 15
+    - -15
+    positionOffsets:
+    - {x: -15, y: 0}
+    - {x: 15, y: 0}
+    fireWait: 4
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 10
+    - -10
+    positionOffsets:
+    - {x: -10, y: 0}
+    - {x: 10, y: 0}
+    fireWait: 5
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 5
+    - -5
+    positionOffsets:
+    - {x: -5, y: 0}
+    - {x: 5, y: 0}
+    fireWait: 6
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 0
+    - 0
+    positionOffsets:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0}
+    fireWait: 7
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 5
+    - -5
+    positionOffsets:
+    - {x: -5, y: 0}
+    - {x: 5, y: 0}
+    fireWait: 6
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 10
+    - -10
+    positionOffsets:
+    - {x: -10, y: 0}
+    - {x: 10, y: 0}
+    fireWait: 5
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 15
+    - -15
+    positionOffsets:
+    - {x: -15, y: 0}
+    - {x: 15, y: 0}
+    fireWait: 4
+  mainFocusShots:
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 4861f32eac97810438e9481b0fc0bf19, type: 3}
+    - {fileID: 3692356356745162565, guid: 4861f32eac97810438e9481b0fc0bf19, type: 3}
+    angles:
+    - 190
+    - 170
+    positionOffsets:
+    - {x: -10, y: 0}
+    - {x: 10, y: 0}
+    fireWait: 0
+  - bullets: []
+    angles: []
+    positionOffsets: []
+    fireWait: 0
+  - bullets: []
+    angles: []
+    positionOffsets: []
+    fireWait: 0
+  subFocusShots:
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 5
+    - -5
+    positionOffsets:
+    - {x: -5, y: 0}
+    - {x: 5, y: 0}
+    fireWait: 4
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 2.5
+    - -2.5
+    positionOffsets:
+    - {x: -2.5, y: 0}
+    - {x: 2.5, y: 0}
+    fireWait: 5
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 0
+    - 0
+    positionOffsets:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0}
+    fireWait: 6
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 2.5
+    - -2.5
+    positionOffsets:
+    - {x: -2.5, y: 0}
+    - {x: 2.5, y: 0}
+    fireWait: 5
+  - bullets:
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    - {fileID: 3692356356745162565, guid: 23a421bd6f18bb64c95524b0fb09e1a4, type: 3}
+    angles:
+    - 5
+    - -5
+    positionOffsets:
+    - {x: -5, y: 0}
+    - {x: 5, y: 0}
+    fireWait: 4

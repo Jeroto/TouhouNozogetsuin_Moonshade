@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MarisaRpg
+  m_Controller: {fileID: 9100000, guid: 722bd0ed4530449478557a1f4d66012d, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 41ef8d584c04a5849995cb55d6d8f13f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 10087cf188f097c4fbdd85d3662262e0, type: 2}
